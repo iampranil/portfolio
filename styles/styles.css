@@ -1,0 +1,39 @@
+body {
+  background-color: #1A181B;
+  font-family: franklin-gothic-atf, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+h1 {
+  color: #EEEBE4;
+}
+
+h2 {
+  position: relative;
+  color: #EEEBE4;
+  text-align: center;
+  font-size: 1000%;
+}
+
+p {
+  color: #EEEBE4;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.centerpranil {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  transition: .5s ease;
+}
+
+.centerpranil:hover {
+  opacity: .8;
+  transform: scale(1.1);
+}
