@@ -19,13 +19,9 @@ p {
   color: #EEEBE4;
 }
 
-.container {
-  position: relative;
-  width: 50%;
-}
-
 .centerpranil {
   display: block;
+  width:auto;
   margin-left: auto;
   margin-right: auto;
   padding-top: 50px;
