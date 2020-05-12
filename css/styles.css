@@ -92,15 +92,15 @@ iframe{
 }
 .verticalphoto {
   display: block;
-  width: 50%;
+  width: 100%;
 }
 .column {
   float: left;
   width: 50%;
 }
-
 .row::after {
   content: "";
+  width: 100%;
   clear: both;
   display: table;
 }
