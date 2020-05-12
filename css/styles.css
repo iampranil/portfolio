@@ -9,21 +9,18 @@ body {
 h1 {
   color: #EEEBE4;
 }
-
 h2 {
   position: relative;
   color: #EEEBE4;
   text-align: center;
   font-size: 100%;
 }
-
 p {
   display: block;
   margin-left: auto;
   margin-right: auto;
   color: #EEEBE4;
 }
-
 iframe{
   width: 720px;
   height: 405px;
@@ -32,22 +29,20 @@ iframe{
   margin-right: auto;
   padding-top: 50px;
 }
-
 .header {
 
   padding-bottom: 50px;
   background-color: #1A181B;
 }
-
 .centerpranil {
   display: block;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 250px;
+  padding-top: 150px;
   transition: .7s ease;
   opacity: .8;
 }
-
 .centerpranilsmall {
   display: block;
   width: 512px;
@@ -58,16 +53,15 @@ iframe{
   opacity: .1;
 
 }
-
 .centernav {
   display: block;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 35px;
   transition: .7s ease;
   opacity: .1;
 }
-
 .centernavsmall {
   display: block;
   width: 512px;
@@ -77,18 +71,22 @@ iframe{
   transition: .7s ease;
   opacity: .1;
 }
-
 .centerpranilsmall:hover {
   opacity: 1;
   transform: scale(1.1);
 }
-
 .centernav:hover {
   opacity: 1;
   transform: scale(1.1);
 }
-
 .centernavsmall:hover {
   opacity: 1;
   transform: scale(1.1);
+}
+.centerphoto {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
 }
