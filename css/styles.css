@@ -19,19 +19,20 @@ p {
   color: #EEEBE4;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-
-
 .centerpranil {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 250px;
+  transition: .5s ease;
+}
+
+.centerpranilsmall {
+  display: block;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
   transition: .5s ease;
 }
 
@@ -44,6 +45,11 @@ ul {
 }
 
 .centerpranil:hover {
+  opacity: .65;
+  transform: scale(1.1);
+}
+
+.centerpranilsmall:hover {
   opacity: .65;
   transform: scale(1.1);
 }
