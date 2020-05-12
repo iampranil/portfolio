@@ -21,7 +21,6 @@ p {
   margin-right: auto;
   color: #EEEBE4;
 }
-
 iframe{
   width: 720px;
   height: 405px;
@@ -52,7 +51,6 @@ iframe{
   padding-top: 50px;
   transition: .7s ease;
   opacity: .1;
-
 }
 .centernav {
   display: block;
@@ -94,17 +92,20 @@ iframe{
 .verticalphoto {
   display: block;
   width: 100%;
-
 }
 .column {
   float: left;
-  padding-top: 3.3%;
-  padding-left: 3.3%;
-  width: 45%;
+  background-color: black;
+  width: 50%;
+  max-width: 500px;
+  margin-left:auto;
+  margin-right:auto;
 }
-.row::after {
+.row {
   content: "";
-  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
   clear: both;
   display: table;
 }
