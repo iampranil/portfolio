@@ -21,7 +21,14 @@ p {
 
 .centerpranil {
   display: block;
-  width:auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 250px;
+  transition: .5s ease;
+}
+
+.centernav {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 50px;
@@ -29,6 +36,11 @@ p {
 }
 
 .centerpranil:hover {
-  opacity: .8;
+  opacity: .65;
+  transform: scale(1.1);
+}
+
+.centernav:hover {
+  opacity: .65;
   transform: scale(1.1);
 }
