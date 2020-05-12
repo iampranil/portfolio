@@ -95,9 +95,10 @@ iframe{
   width: 50%;
 }
 .column {
-  float: left;
+  float: right;
   width: 40%;
-  padding: 5%;
+  padding-top: 5%;
+  padding-right: 2.5%;
 }
 .row::after {
   content: "";
