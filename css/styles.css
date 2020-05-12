@@ -22,6 +22,15 @@ p {
   color: #EEEBE4;
 }
 
+iframe{
+  width: 720px;
+  height: 405px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
 .header {
 
   padding-bottom: 50px;
