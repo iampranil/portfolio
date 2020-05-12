@@ -93,10 +93,14 @@ iframe{
 .verticalphoto {
   display: block;
   width: 100%;
+
 }
 .column {
   float: left;
-  width: 50%;
+  padding-top: 2.5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  width: 45%;
 }
 .row::after {
   content: "";
