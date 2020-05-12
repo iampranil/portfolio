@@ -29,7 +29,7 @@ p {
 
 .centerpranilsmall {
   display: block;
-  width: 25%;
+  width: 256px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 50px;
@@ -44,6 +44,15 @@ p {
   transition: .5s ease;
 }
 
+.centernavsmall {
+  display: block;
+  width: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  transition: .5s ease;
+}
+
 .centerpranil:hover {
   opacity: .65;
   transform: scale(1.1);
@@ -55,6 +64,11 @@ p {
 }
 
 .centernav:hover {
+  opacity: .65;
+  transform: scale(1.1);
+}
+
+.centernavsmall:hover {
   opacity: .65;
   transform: scale(1.1);
 }
