@@ -39,7 +39,7 @@ iframe{
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 150px;
+  padding-top: 25px;
   transition: .7s ease;
   opacity: .8;
 }
@@ -58,7 +58,7 @@ iframe{
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 35px;
+  padding-top: 25px;
   transition: .7s ease;
   opacity: .1;
 }
