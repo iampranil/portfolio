@@ -37,7 +37,6 @@ iframe{
 
   padding-bottom: 50px;
   background-color: #1A181B;
-
 }
 
 .centerpranil {
@@ -46,6 +45,7 @@ iframe{
   margin-right: auto;
   padding-top: 250px;
   transition: .7s ease;
+  opacity: .1;
 }
 
 .centerpranilsmall {
@@ -55,6 +55,8 @@ iframe{
   margin-right: auto;
   padding-top: 50px;
   transition: .7s ease;
+  opacity: .1;
+
 }
 
 .centernav {
@@ -63,6 +65,7 @@ iframe{
   margin-right: auto;
   padding-top: 35px;
   transition: .7s ease;
+  opacity: .1;
 }
 
 .centernavsmall {
@@ -72,19 +75,20 @@ iframe{
   margin-right: auto;
   padding-top: 10px;
   transition: .7s ease;
+  opacity: .1;
 }
 
 .centerpranilsmall:hover {
-  opacity: .65;
+  opacity: 1;
   transform: scale(1.1);
 }
 
 .centernav:hover {
-  opacity: .65;
+  opacity: 1;
   transform: scale(1.1);
 }
 
 .centernavsmall:hover {
-  opacity: .65;
+  opacity: 1;
   transform: scale(1.1);
 }
