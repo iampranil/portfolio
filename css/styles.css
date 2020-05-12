@@ -18,7 +18,9 @@ h2 {
 }
 
 p {
-  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   color: #EEEBE4;
 }
 
