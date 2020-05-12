@@ -45,7 +45,8 @@ iframe{
 }
 .centerpranilsmall {
   display: block;
-  width: 512px;
+  width: 50%;
+  max-width: 512px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 50px;
@@ -63,7 +64,8 @@ iframe{
 }
 .centernavsmall {
   display: block;
-  width: 512px;
+  width: 50%;
+  max-width: 512px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
@@ -95,8 +97,9 @@ iframe{
 }
 .column {
   float: left;
-  background-color: black;
-  width: 50%;
+  width: 45%;
+  padding-left: 2.5%;
+  padding-top: 2.5%;
   max-width: 500px;
   margin-left:auto;
   margin-right:auto;
