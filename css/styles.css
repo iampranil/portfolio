@@ -21,6 +21,7 @@ p {
   margin-right: auto;
   color: #EEEBE4;
 }
+
 iframe{
   width: 720px;
   height: 405px;
@@ -97,7 +98,7 @@ iframe{
 }
 .column {
   float: left;
-  padding-top: 2.5%;
+  padding-top: 3.3%;
   padding-left: 3.3%;
   width: 45%;
 }
