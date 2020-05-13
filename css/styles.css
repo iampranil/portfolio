@@ -126,10 +126,10 @@ iframe{
 
 /* Create four equal columns that sits next to each other */
 .column {
-  flex: 20%;
-  max-width: 20%;
-
+  flex: 25%;
+  max-width: 25%;
   padding: 0 4px;
+
 }
 
 .column img {
@@ -140,8 +140,8 @@ iframe{
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 1280px) {
   .column {
-    flex: 40%;
-    max-width: 40%;
+    flex: 50%;
+    max-width: 50%;
   }
 }
 
