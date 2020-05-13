@@ -115,12 +115,15 @@ iframe{
   margin-right: auto;
   clear: both;
   display: table;
+
+  display: flex;
+  flex-wrap: wrap;
 }
 */
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 10%;
 
 }
 
